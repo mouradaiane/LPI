@@ -1,0 +1,56 @@
+
+1. Altere o programa para imprimir uma mensagem diferente. 
+
+package linguagemdeprogramacao.meuprimeiroprograma;
+
+
+public class MeuPrimeiroPrograma {
+
+    public static void main(String[] args) {
+        System.out.println("Meu nome é Daiane");
+    }
+}
+
+2- Altere o programa para imprimir duas linhas de texto usando duas linhas de código System.out.
+
+package linguagemdeprogramacao.meuprimeiroprograma;
+
+
+public class MeuPrimeiroPrograma {
+
+    public static void main(String[] args) {
+        System.out.println("Meu nome é Daiane");
+        System.out.println("Curso Banco de Dados na Fatec");
+    }
+}
+
+3- Sabendo que os caracteres \n representam uma quebra de linhas, imprima duas linhas de texto usando uma única linha de código System.out
+
+package linguagemdeprogramacao.meuprimeiroprograma;
+
+
+public class MeuPrimeiroPrograma {
+
+    public static void main(String[] args) {
+        System.out.println("Meu nome é Daiane \n Curso Banco de Dados na Fatec");
+            }
+}
+
+4- package linguagemdeprogramacao.meuprimeiroprograma;
+
+
+public class MeuPrimeiroPrograma {
+
+    public static void main(String[] args) {
+        
+        //Sabendo que, em janeiro, foram gastos 15 mil reais, em fevereiro, 23 mil reais e, em março, 17 mil reais, faça um programa 
+        //que calcule e imprima a despesa total no trimestre e a média mensal
+//de gastos. 
+ double jan = 15000;
+ double fev = 23000;
+ double mar = 17000;
+        double total = jan + fev + mar;
+                
+        System.out.println("A soma dos gastos dos 3 primeiros meses é:" + total);
+            }
+}
